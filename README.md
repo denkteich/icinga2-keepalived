@@ -29,3 +29,6 @@ Add the command definition.
 
 
 Restart icinga2 and check for errors.
+
+
+I'm monitoring remote via ssh. If you need to monitor one instance locally, you need to define a local command and service.
