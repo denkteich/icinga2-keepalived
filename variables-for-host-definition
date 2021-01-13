@@ -1,0 +1,9 @@
+object Host "blablabla" {
+	...
+   	vars.keepalived_instance["VI1"] = { statefile = "/var/run/keepalived_INSTANCE_VI1.state", state_expected = "master" }
+   	vars.keepalived_instance["VI2"] = { statefile = "/var/run/keepalived_INSTANCE_VI2.state", state_expected = "master" }
+   	vars.by_ssh_keepalived_host = "333.444.555.666"
+   	vars.by_ssh_keepalived_login = "sshuser"
+   	vars.by_ssh_keepalived_key = "/var/lib/nagios/.ssh/id_rsa"
+   	vars.by_ssh_keepalived_command = "/usr/lib/nagios/plugins/check_keepalived.sh"
+}
