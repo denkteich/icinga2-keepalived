@@ -32,3 +32,4 @@ Restart icinga2 and check for errors.
 
 
 I'm monitoring remote via ssh. If you need to monitor one instance locally, you need to define a local command and service.
+If I ever need to monitor one instance locally, I'll ad the command and script... or if I have some time left ;)
