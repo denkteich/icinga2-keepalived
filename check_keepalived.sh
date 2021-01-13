@@ -11,7 +11,6 @@ fi
 
 # set to 'true' if the host is supposed to be in MASTER state
 # or set to 'false' if the host is supposed to be in BACKUP state
-# nrpe cannot receive external variables UNLESS is forced in config
 if [ $1 == "master" ]; then
         MASTER='true'
 else
